@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Waiter</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    
+    <ProjectReference Include="..\Cafe.Messages\Cafe.Messages.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="autofacserilogintegration" Version="5.0.0" />
+    <PackageReference Include="Nimbus" Version="4.2.0" />
+    <PackageReference Include="Nimbus.Containers.Autofac" Version="4.2.0" />
+    <PackageReference Include="Nimbus.InfrastructureContracts" Version="4.2.0" />
+    <PackageReference Include="Nimbus.Logger.Serilog" Version="4.2.0" />
+    <PackageReference Include="Nimbus.MessageContracts" Version="4.2.0" />
+    <PackageReference Include="Nimbus.Serializers.Json" Version="4.2.0" />
+    <PackageReference Include="Nimbus.Transports.Redis" Version="4.2.0" />
+    <PackageReference Include="serilog" Version="2.12.0" />
+    <PackageReference Include="serilog.sinks.console" Version="4.1.0" />
+    <PackageReference Include="serilog.sinks.seq" Version="5.2.1" />
+  </ItemGroup>
+
+</Project>
